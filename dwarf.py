@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from nltk import word_tokenize, ngrams
 
 def translate(eng, key0, key1):
     dwf = ''
@@ -16,11 +15,7 @@ key0 = [' ']
 key1 = [' ']
 
 #Read in english
-eng = input('Give me a phrase!\n')
-
-#Split Compound words
-
-#Remove inflections
+eng = raw_input('Give me a phrase!\n')
 
 #Substitute the letters
 with open(translationFile, 'r') as keyFile:
