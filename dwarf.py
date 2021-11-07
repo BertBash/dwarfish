@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 def translate(eng, key0, key1):
     dwf =''
