@@ -29,7 +29,7 @@ key0 = [' ']
 key1 = [' ']
 
 #Read in english
-eng = raw_input('Give me a phrase!\n')
+eng = input('Give me a phrase!\n')
 
 #Substitute the letters
 with open(translationFile, 'r') as keyFile:
